@@ -1,0 +1,54 @@
+1                                         The SAS System           13:43 Wednesday, April 24, 2013
+
+NOTE: Copyright (c) 2002-2010 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.3 (TS1M0) 
+      Licensed to UNIVERSITY OF COLORADO - SFA T&R, Site 70082279.
+NOTE: This session is executing on the X64_7PRO  platform.
+
+
+
+NOTE: SAS initialization used:
+      real time           0.34 seconds
+      cpu time            0.13 seconds
+      
+1          /**************************************************************************************
+1        ! ******
+2          Created By:		Brandy Ringham
+3          Creation Date:	8/30/11
+4          Description:	Assigns common libnames and options for storing macros.
+5          ***************************************************************************************
+5        ! *****/
+6          
+7          %macro IncludeLibraryProgram01;
+8          	
+9          	/*set options;*/
+10         	options mstored sasmstore = mlib fullstimer;
+11         	
+12         	/*assign directory to store macros;*/
+13         	
+14         	%include "C:\Users\munjala\Dropbox\Bias Correction R03 -
+14       ! paired\BiasCorrectionSoftware\programs\Modules\CommonMain.sas"; /*Added by Aarti */
+15         	%include "C:\Users\munjala\Dropbox\Bias Correction R03 -
+15       ! paired\BiasCorrectionSoftware\programs\Modules\DefineMacroPath.sas"; /*Added by Aarti
+15       ! */
+16         	%include "CommonMacro.sas";
+17         	%include "../Modules/CommonMacro.sas";
+18         
+19         
+20         
+21         	%DefineMacroPath;
+22         
+23         	/*put operating system and macro path to log;*/
+24         	%put Operating System: &sysscp;
+25         	%put Macro Vault: &MACRO_VAULT;
+26         
+27         	/*libname defined in "DefineMacroPath.sas";*/
+28         	libname mlib "&MACRO_VAULT";
+29         
+30         %mend;
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           0.37 seconds
+      cpu time            0.13 seconds
+      

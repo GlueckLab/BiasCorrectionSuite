@@ -1,0 +1,5 @@
+Dear SAS Help,
+
+I am trying to load a macro (called "DecisionErrorTool01.sas") using the "store" option.  However, I keep getting an error that indicates I may be missing a comma or a parantheses and the macro does not load itself into the macro library.  I believe the syntax is correct so there may be something else going on.  Could you look at the error message in the log (called "DecisionErrorTool01.log") and let me know if you have seen this before and how I can resolve it?
+Thank you,
+Aarti

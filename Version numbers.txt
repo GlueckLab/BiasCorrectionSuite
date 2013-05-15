@@ -1,0 +1,7 @@
+Versions used for release
+
+1. BiasCorrectionTool06
+2. BiasCorrectionToolTable
+3. DecisionErrorTool02
+4. DecisionErrorSimulator03
+5. DecisionErrorToolTable
