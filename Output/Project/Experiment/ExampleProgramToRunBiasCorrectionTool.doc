@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033
+{\fonttbl
+{\f1\froman\fprq2\fcharset0 Times New Roman;}
+{\f2\fmodern\fprq1\fcharset0 Courier New;}
+{\f3\froman\fprq2\fcharset0 Times;}
+}{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+\red0\green0\blue128;
+\red0\green128\blue128;
+\red0\green128\blue0;
+\red128\green0\blue128;
+\red128\green0\blue0;
+\red128\green128\blue0;
+\red128\green128\blue128;
+\red192\green192\blue192;
+}{\stylesheet{\widctlpar\adjustright\fs20\cgrid\snext0 Normal;}{\*\cs10\additive Default Paragraph Font;}
+}{\info{\title V9.3 SAS System Output}{\author SAS Version 9.3}{\operator SAS Version 9.3}{\version1}{\creatim\yr2013\mo5\dy13\hr12\min17\sec21}}
+\widowctrl\ftnbj\aenddoc\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\fet0\paperw12240\paperh15840\margl360\margr360\margt360\margb360
+\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc\pvmrg\phmrg\posxr\posy0{
+\sb0\sa0\qr\f1\fs20\cf1{{\field{\*\fldinst { DATE \\@ "hh:mm  dddd, MMMM dd, yyyy  " }}}}
+\b\sb0\sa0\qr\f1\fs20\cf1{{\field{\*\fldinst { PAGE }}}}
+{\par}
+\pard\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\sb10\sa10\ql\f3\fs24\cf1\li1440{\animtext0\ul0\strike0\b0\i0\f3\fs24\cf1 Table 1. Hypothesis Test for a Difference in AUC.\cell}
+{\row}
+\pard{\par}}}
+{\footer\pard\plain\qc{
+{\par}\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx11520
+\pard\plain\intbl\sb10\sa10\ql\f3\fs24\cf1\li1440{\animtext0\ul0\strike0\b0\i0\f3\fs24\cf1  {\super 1}Z-test for a difference in AUC (Obuchowski and McClish, 1997.)\cell}
+{\row}
+\pard}}{\*\bkmkstart IDX}{\*\bkmkend IDX}\trowd\trkeep\trhdr\trqc
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2165
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4330
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5775
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7220
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8670
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Analysis\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Difference in AUC{\line}
+(Test1 - Test2)\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Standard Error\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Z\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{P-Value{\super 1}\cell}
+{\row}
+\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2165
+\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4330
+\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5775
+\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7220
+\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8670
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Standard\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{-0.06\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{0.02\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{2.79\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{0.0052\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2165
+\clbrdrb\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4330
+\clbrdrb\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5775
+\clbrdrb\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7220
+\clbrdrb\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8670
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{Corrected\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.06\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.02\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{3.30\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0010\cell}
+{\row}
+\pard}
